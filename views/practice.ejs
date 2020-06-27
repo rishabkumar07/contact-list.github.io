@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            <%= locals.title %>
+        </title>
+    </head>
+    <body>
+        <h1>Winner Winner Chicken Dinner!!</h1>
+        <ul>
+            <% for (let i=1;i<=5;i++) { %>
+                <li>
+                    <%= i %>
+                </li>
+            <% } %>
+        </ul>
+        <% if(true) { %>
+            <h1>Hell Yeah!</h1>
+        <% } else { %>
+            <h1>Oh mean!</h1>
+        <% } %>
+    </body>
+</html>
